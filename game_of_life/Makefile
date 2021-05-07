@@ -21,7 +21,7 @@ OBJS = life_gif.o lifestate.o  $(LIB)/k08.a $(LIB)/libbmp.a
 EXEC = life_gif
 
 # Παράμετροι για δοκιμαστική εκτέλεση
-ARGS = states/pattern.rle 100 8 1 50 example.gif
+ARGS = states/pattern.rle 100 16 1 50 example.gif
 
 
 $(EXEC): $(OBJS)
